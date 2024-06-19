@@ -1,13 +1,5 @@
-# Japan Visa Analysis: Azure End to End Data Engineering 🌐
+# Japan Visa Analysis: Azure End to End Data Engineering
 This project provides an end-to-end data processing and visualization of visa numbers in Japan using PySpark and Plotly. The spark clusters are set up within a Docker container on Azure.
-
-## 📝 Table of Contents
-- [System Architecture](#system-architecture)
-- [Setup & Requirements](#-setup--requirements)
-- [Usage](#-usage)
-- [Features](#-features)
-- [Notes](#-notes)
-- [Video](#-video)
 
 ## System Architecture
 ![System Architecture](assets/Sparkcluster_architecture.png)
@@ -39,6 +31,3 @@ This project provides an end-to-end data processing and visualization of visa nu
 - Ensure that your Azure and Docker setups are correctly configured to allow the Spark master-worker architecture to function seamlessly.
 - The country name corrections and continent mapping are based on the `pycountry` and `pycountry_convert` libraries. Ensure that these libraries are up-to-date to get accurate results.
 - You can adjust the manual mappings in the `country_mapping` dictionary in the `main.py` file to correct any country names that are not correctly matched.
-
-## 🎥 Video
-[![Japan Visa Analysis: Azure Data End to End Data Engineering](https://img.youtube.com/vi/f-IcM8mFmDc/0.jpg)](https://youtu.be/f-IcM8mFmDc)
